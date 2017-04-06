@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{ICMLworkshop16}
+N.~Goix.
+\newblock {How to Evaluate the Quality of Unsupervised Anomaly Detection
+  Algorithms?}
+\newblock In {\em ICML Workshop on Anomaly Detection, co-winner of the best
+  paper award sponsored by Google}, 2016.
+
+\bibitem{OCRF16}
+N.~Goix, R.~Brault, N.~Drougard, and M.~Chiapino.
+\newblock {One Class Splitting Criteria for Random Forests with Application to
+  Anomaly Detection}.
+\newblock 2016.
+\newblock Submitted paper.
+
+\bibitem{ARXIV16}
+N.~Goix, A.~Sabourin, and S.~Cl{\'e}men{\c c}on.
+\newblock {Sparse Representation of Multivariate Extremes with Applications to
+  Anomaly Detection}.
+\newblock 2017.
+\newblock To appear in Journal of Multivariate Analysis.
+
+\bibitem{COLT15}
+N.~Goix, A.~Sabourin, and S.~Clémençon.
+\newblock {Learning the dependence structure of rare events: a non-asymptotic
+  study}.
+\newblock In {\em COLT}, 2015.
+
+\bibitem{AISTAT15}
+N.~Goix, A.~Sabourin, and S.~Clémençon.
+\newblock {On Anomaly Ranking and Excess-Mass Curves}.
+\newblock In {\em AISTATS}, 2015.
+
+\bibitem{NIPSWORKSHOP15}
+N.~Goix, A.~Sabourin, and S.~Clémençon.
+\newblock {Sparse Representation of Multivariate Extremes}.
+\newblock In {\em NIPS Workshop on Nonparametric Methods for Large Scale
+  Representation Learning}, 2015.
+
+\bibitem{AISTAT16}
+N.~Goix, A.~Sabourin, and S.~Clémençon.
+\newblock {Sparse Representation of Multivariate Extremes with Applications to
+  Anomaly Ranking}.
+\newblock In {\em AISTATS}, 2016.
+
+\end{thebibliography}
