@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html crossriderapp2258="true" class=" js flexbox no-touch rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio" dir="ltr" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<title>TesT Seminar</title>
+		<!--iOS/android/handheld specific -->	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">						
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+				<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/modernizr.js" type="text/javascript"></script>
+		<script src="js/customscript.js" type="text/javascript"></script>		
+		<style type="text/css">
+		#header h1, #header h2 {
+			text-indent: 182pt;
+			text-align:center;
+			display: block;
+			line-height: 150px;
+			}	
+		</style>
+	</head>
+
+	<body>
+	
+		<header class="main-header">
+			<div class="container">
+				<div id="header">
+				<img src="logo_test.png" alt="Test" height="150pt" align="left" hspace="20"/>
+				<img src="logoTPT.png" alt="Telecom" height="150pt" align="right" hspace="20"/>
+				<h1><FONT color="#C80000">TesT Seminar</FONT></h1>
+				</div>
+			</div>			
+		</header>
+		
+		<div class="container">
+			<div class="secondary-navigation">
+				<nav id="navigation">
+					<ul class="menu">
+						<li><a href="home.html">Home</a></li>
+						<li class="activelink"><a href="old.html">Old sessions</a></li>		
+					</ul>			
+					<select><option value="" selected="selected">Go to...</option><option value="#">Home</option><option value="#">About</option><option value="#">Contact Us</option><option value="#">Awesomeness</option><option value="#">featured</option><option value="#">Brochure</option><option value="#">Design</option><option value="#">Inspiration</option></select>
+				</nav>
+			</div>
+		</div>
+		
+		<div id="page">
+			<div class="content">
+				<article class="article">
+					<div align="justify" style="margin-right: 20px;">
+						
+						<h2></h2>
+						<h1> 2014 - 2015 </h1>
+						<ul>
+							<li> 27/11/2014 - Tutorial : Andrés Sánchez Pérez (Telecom Paristech) <FONT color="orange">[</FONT><a href="2014-2015/2014-11_KMPO_tutorial.pdf"><B>notes</B></a><FONT color="orange">]</FONT> </li>
+							<li> 27/11/2014 - Talk : Néhémy Lim (Université d’Évry-Val-d’Essonne - Télécom ParisTech) on Operator-valued Kernel-based Vector Autoregressive Models for Network Inference <FONT color="orange">[</FONT><a href="2014-2015/2014-11_OKVAMNI.pdf"><B>abstract</B></a><FONT color="orange">]</FONT></li>
+							<li> 19/09/2014 - Talk : Ruocong Zhang (Télécom ParisTech) on Statistical machine learning in portfolio management <FONT color="orange">[</FONT><a href="2014-2015/2014-09_SMLPM.pdf"><B>abstract</B></a><FONT color="orange">]</FONT></li>
+						</ul>
+						
+						<h1> 2013 - 2014 </h1>
+						<ul>
+							<li> 04/07/2014 - Tutorial : Éric Sibony (Telecom ParisTech) </li>
+						    <li> 04/07/2014 - Talk : Éric Sibony (Telecom ParisTech) on multiresolution analysis of incomplete rankings <FONT color="orange">[</FONT><a href="2013-2014/2014-07_MRAIR.pdf"><B>abstract</B></a><FONT color="orange">]</FONT> </li>  
+							<li> 04/04/2014 - Tutorial : Andrés Sánchez Pérez (Telecom Paristech) <FONT color="orange">[</FONT><a href="2013-2014/2014-04_HM_tutorial.pdf"><B>notes</B></a><FONT color="orange">]</FONT> </li>
+							<li> 04/04/2014 - Talk : Amandine Schreck (Telecom Paristech) on a Metropolis Hastings algorithme for sparse simulation <FONT color="orange">[</FONT><a href="2013-2014/2014-04_HM_abstract.pdf"><B>abstract</B></a><FONT color="orange">]</FONT> <FONT color="orange">[</FONT><a href="2013-2014/2014-04_HM_talk.pdf"><B>slides</B></a><FONT color="orange">]</FONT></li>
+						    <li> 28/02/2014 - Tutorial : Marius Kwemou (Université d'Evry) <FONT color="orange">[</FONT><a href="2013-2014/2014-02_ECP_tutorial.pdf"><B>slides</B></a><FONT color="orange">]</FONT></li>
+						    <li> 28/02/2014 - Talk : Sarah Lemler (Université d'Evry) on estimation in counting processes <FONT color="orange">[</FONT><a href="2013-2014/2014-02_ECP_abstract.pdf"><B>abstract</B></a><FONT color="orange">]</FONT> <FONT color="orange">[</FONT><a href="2013-2014/2014-02_ECP_talk.pdf"><B>slides</B></a><FONT color="orange">]</FONT></li>
+							<li> 18/12/2013 - Tutorial : Clément Levrard </li>
+						    <li> 18/12/2013 - Talk : Lucie Montuelle (Université Paris-Sud) on Gaussian regression with logistic weights and penalized maximum likelihood <FONT color="orange">[</FONT><a href="2013-2014/2013-12_GR.pdf"><B>abstract</B></a><FONT color="orange">]</FONT> </li>
+							<li> 18/10/2013 - Tutorial : Andrés Sánchez Pérez (Télécom ParisTech) <FONT color="orange">[</FONT><a href="2013-2014/2013-10_APAR_tutorial.pdf"><B>notes</B></a><FONT color="orange">]</FONT> </li>
+							<li> 18/10/2013 - Talk : Andrés Sánchez Pérez (Télécom ParisTech) on online adaptive forecasting for time varying autoregressive processes <FONT color="orange">[</FONT><a href="2013-2014/2013-10_APAR_abstract.pdf"><B>abstract</B></a><FONT color="orange">]</FONT> </li>
+						</ul>
+
+						<h1> 2012 - 2013 </h1>
+						<ul>
+							<li> 14/02/2013 - Tutorial : Benjamin Guedj (UPMC et Télécom ParisTech) on PAC-Bayesian theory <FONT color="orange">[</FONT><a href="2012-2013/2013-02_PAC_tutorial.pdf"><B>slides</B></a><FONT color="orange">]</FONT> </li>
+							<li> 14/02/2013 - Talk : Xiaoyin Li (Université de Cergy-Pontoise) on PAC-Bayesian bounds for dependent observations <FONT color="orange">[</FONT><a href="2012-2013/2013-02_PAC_talk.pdf"><B>slides</B></a><FONT color="orange">]</FONT> </li>
+							<li> 10/2012 : Adaptive estimation by deformed kernel </em>, Gaëlle Chagny. <FONT color="orange">[</FONT><a href="2012-2013/2012-10_EAND.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Le Corff)</li>
+						</ul>
+
+						<h1> 2011 - 2012 </h1>
+						<ul >
+							<li> 06/2012 : Functional limit laws for empirical processes and applications, Sarah Ouadah. (Tutoriel : Sylvian Robbiano)</li>
+							<li> 06/2012 : Nonasymptotic deviation inequalities for smoothed additive functionals in non-linear state-space models, Sylvain Le Corff. <FONT color="orange">[</FONT><a href="http://arxiv.org/abs/1012.4183"><B>Arxiv</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Le Corff)</li>
+							<li> 05/2012 : Adaptive estimation in the context of the Poisson interactions model and application to genomic data, Laure Sansonnet. <FONT color="orange">[</FONT><a href="2011-2012/2012-05_EAIP.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Robbiano)</li>
+							<li> 04/2012 : Adaptive Equi-energy sampler, convergence and illustrations, Amandine Schreck. <FONT color="orange">[</FONT><a href="2011-2012/2012-04_EES.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Le Corff)</li>
+							<li> 03/2012 : L1-oracle inequalities for the Lasso via model selection, Caroline Meynet. (Tutoriel : Sylvian Robbiano)</li>
+							<li> 02/2012 : Infering cosmic particles: Challenges in MCMC methodology raised by the analysis of data from the Pierre Auger experiment, Rémi Bardenet. <FONT color="orange">[</FONT><a href="2011-2012/2012-02_MCMC.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Le Corff)</li>
+							<li> 01/2012 : Tigress: Trustful inference of gene regulation using stability selection, Anne-Claire Haury. <FONT color="orange">[</FONT><a href="2011-2012/2012-01_TIGRESS.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Robbiano)</li>
+							<li> 12/2011 : Context tree estimation in variable length hidden Markov models, Thierry Dumont. <FONT color="orange">[</FONT><a href="http://arxiv.org/abs/1109.0392"><B>Arxiv</B></a><FONT color="orange">]</FONT> <FONT color="orange">[</FONT><a href="2011-2012/2011-12_CTE.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Le Corff)</li>
+							<li> 11/2011 : Classification in postural style, Christophe Denis. <FONT color="orange">[</FONT><a href="http://hal.archives-ouvertes.fr/hal-00576070_v1/"><B>Hal</B></a> <FONT color="orange">]</FONT><FONT color="orange">[</FONT><a href="2011-2012/2011-11_CPS.pdf"><B>slides</B></a><FONT color="orange">]</FONT> (Tutoriel : Sylvian Robbiano)</li>
+						</ul>
+					</div>
+				</article>
+						
+				<aside class="sidebar">
+					<div id="sidebars" class="g">
+						<div class="sidebar">
+							<ul class="sidebar_list">				
+								<div id="left">
+									<div class="box">
+										<h2></h2>
+										<h2>Places of the seminar :</h2>
+										Telecom ParisTech
+										<dd></dd>
+										37 rue Dareau 
+										<dd></dd>
+										75014 Paris 
+										<dd></dd>
+										and 
+										<dd></dd>
+										Université Paris 6 
+										<dd></dd>
+										4 Place Jussieu 
+										<dd></dd>
+										75005 Paris 
+									</div>
+									<h2></h2>
+									<div class="box">
+										<h2>Contact :</h2>
+										andres (dot) sanchez (dash) perez (at) telecom (dash) paristech (dot) fr
+									</div>
+								</div>
+							</ul>
+						</div>
+					</div><!--sidebars-->
+				</aside>	
+					
+			</div><!--#page-->
+		</div><!--.container-->
+		
+		<footer>
+			<div class="container">
+				<div class="footer-widgets">
+					<div class="f-widget">
+						<div class="widget">
+							<h3>Version française &nbsp; <a href="archives.html"> <img src="francais.png" alt="français" width="10%" /></a></h3>		
+						</div>	
+					</div>
+
+					<div class="copyrights">
+						<div class="row" id="copyright-note">
+						</div>
+					</div>
+				</div><!--.footer-widgets-->
+			</div><!--.container-->
+		</footer><!--footer-->
+
+	</body>
+</html>

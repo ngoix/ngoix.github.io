@@ -1,0 +1,236 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2011 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{natbib}
+%\usepackage{enumitem}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+
+\lang{English} % pour le pdf title
+
+% personal data
+\firstname{\Huge{Nicolas}}
+\familyname{Goix\\ {\small date of birth: 07-30-1989 \\ nationality: French}}
+\title{~}               % optional, remove the line if not wanted
+\address{Télécom ParisTech, CNRS-LTCI (Office: E305)}{46 rue Barrault, 75013 Paris, France}    % optional, remove the line if not wanted
+%\mobile{+1~(234)~567~890}                     % optional, remove the line if not wanted
+\phone{+33 (0) 1 45 81 73 24}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{nicolas [dot] goix [at] telecom [dash] paristech [dot] fr}                          % optional, remove the line if not wanted
+\homepage{http://perso.telecom-paristech.fr/\textasciitilde goix/}                    % optional, remove not wanted
+%\extrainfo{French citizen -- Born on October 9, 1986}            % optional, remove the line if not wanted
+
+%%% XXX \photo[58pt][0.4pt]{photo}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+%to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+% \makeatletter
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% \makeatother
+
+% bibliography with mutiple entries
+%\usepackage[resetlabels]{multibib}
+% \usepackage{multibib}
+% \newcites{book,journal,conf,workshop,french,other}{{Books and Book Chapters},{Articles in International Journals},{Articles in Peer-Reviewed International Conferences},{Articles in Peer-Reviewed International Workshops},{Articles in Peer-Reviewed French Conferences},{Technical Reports}}
+% \renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+\maketitle
+
+\section{Areas of Expertise}
+\cventry{}{Statistical Learning, Stochastic Modelling, Anomaly Detection}{}{}{}{
+I have a strong mathematical background and solid programming skills, with expertise in Machine Learning.
+It provides me with well-founded problem solving capabilities and analytical insight.
+%
+%My interests include: metric and similarity learning, sparse methods, large-scale and distributed learning, optimization techniques, learning from structured data, statistical learning theory as well as applications to speech recognition and computer vision.
+}
+\vspace*{-0.3cm}
+
+\section{Education}
+\cventry{\small{\textbf{Oct 2013 -- Dec 2016}}}{Ph.D. in applied mathematics}{Télécom ParisTech}{Paris, France}{}{
+\begin{itemize}
+\item title: Machine Learning Methods to Anomaly Detection.
+\item main contributions: 
+\begin{itemize}
+\item theoretical advances in the dependence (non-asymptotic) estimation of multivariate extreme events \cite{COLT15}.
+\item an anomaly detection algorithm based on multivariate extreme value theory, with theoretical and empirical guarantees \cite{ARXIV16, AISTAT16, NIPSWORKSHOP15}. 
+\item an efficient way to evaluate unsupervised anomaly detection algorithms (without using any labels) \cite{AISTAT15, ICMLworkshop16}.
+\item a one-class random forest algorithm, which structurally extend random forests to one-class classification \cite{OCRF16}.
+\end{itemize}
+\item supervisors: Stéphan Clémençon and Anne Sabourin.
+%\item intended defense date: October, 2016.
+\item in parallel: contributor to scikit-learn (main contributions: implementation of Isolation Forest and Local Outlier Factor algorithms).
+\item in parallel: member of the academic research team of the chair `machine learning for big data' funded by Safran, PSA Peugeot Citroën, Criteo and BNP Parisbas.
+\end{itemize}
+}
+\cventry{\small{\textbf{2011 -- 2013}}}{Normalien}{Ecole Normale Supérieure}{Cachan, France}{}{
+\begin{itemize}
+\item ranked 5th to the national examination (3th year entry).
+\item Normalien status : effectively a trainee civil servant provided with a government salary until graduated.
+\item specialty: mathematics.
+\item 3th year: MSc université Paris VI (see below).
+\item 4th year: research internship (see section work experiences).
+\end{itemize}
+}
+\cventry{\small{\textbf{2011 -- 2012}}}{MSc (Master 2) in probability and stochastic models}{université Paris VI}{}{}{
+\begin{itemize}
+\item courses: brownian motion and stochastic calculus, limit theorems and large deviations, markov processes, levy processes, stochastic flows methods, optimal stopping theory.
+\item master thesis: concentration inequality and applications to random graphs (supervisor: Rama Cont).
+\item graduated with 77.5/100.
+\end{itemize}
+}
+\cventry{\small{\textbf{2009 -- 2011}}}{Magistère in fundamental and applied mathematics}{université Paris-Sud XI}{Orsay, France}{}{
+\begin{itemize}
+\item magistère: includes Licence 3 (BSc) and Master 1.
+\item thesis: Black-Scholes model (supervisor: Filippo Santambrogio).
+\end{itemize}
+}
+\cventry{\small{\textbf{2007 -- 2009}}}{Classes préparatoires MPSI-MP* (mathematics, physics, computer science)}{Lycée Hoche}{Versailles}{}{}
+
+\vspace*{-0.3cm}
+
+\section{Work Experiences}
+\cventry{\small{\textbf{May 2016 -- Aug 2016}}}{Research scholar visitor}{NYU center for data science}{}{}{
+\begin{itemize}
+\item modelling sensor data from black holes, and work on scikit-learn.
+\item supervisor: Andreas Müller.
+\end{itemize}
+}
+
+\cventry{\small{\textbf{Sep 2014 -- Aug 2015}}}{Part-time programmer for scikit-learn}{Paris-Saclay center for data science}{}{}{
+\begin{itemize}
+\item implementation of Isolation Forest algorithm (merged on scikit-learn), and work on issues and pull requests.
+\item supervisor: Alexandre Gramfort.
+\end{itemize}
+}
+\cventry{\small{\textbf{Sep 2012 -- Aug 2013}}}{One-year research internship}{LPMA, Paris VI}{}{}{
+\begin{itemize}
+\item systemic risk in interbank networks : stochastic modeling and asymptotic analysis.
+\item supervisor: Rama Cont.
+\end{itemize}
+}
+
+% \section{Awards}
+% \cvitem{\textbf{Ph.D. award}}{My thesis received the best Ph.D. award from the French Association for Artifical Intelligence (AFIA) in 2013.}
+
+\vspace*{-0.3cm}
+
+\section{Participation in Research Projects}
+\cventry{\small{\textbf{2014 -- present}}}{Machine learning for big data}{}{}{a chair led by Stéphan Clémençon and funded by major companies such as Safran, PSA Peugeot Citroën, Criteo and BNP Parisbas}{}
+
+\vspace*{-0.3cm}
+
+\section{Computer Skills}
+\cvitem{\textbf{OS}}{UNIX/Linux, Windows.}
+\cvitem{\textbf{Programming}}{Python}% , C, C++.}
+% \cvitem{\textbf{Maths}}{MATLAB, Maple.}
+
+\vspace*{-0.3cm}
+
+\section{Invited Talks}
+\cventry{\small{\textbf{Mars 2016}}}{\textmd{Damex: detecting anomalies in high dimension}}{}{}{}{
+\begin{itemize}
+\item description: my work was selected to be presented at the french ministry of industry in front of industral companies within the `bourse aux technologies--industrie du futur--smart manufacturing'.
+\item venue: ministère de l'économie, de l'industrie et du numérique, Paris, France.
+\end{itemize}
+}
+\cventry{\small{\textbf{Dec 2015}}}{\textmd{Anomaly detection in scikit-learn and new tools from multivariate extreme value theory}}{}{}{}{
+\begin{itemize}
+\item description: introduction to anomaly detection through scikit-learn and presentation of my PhD work on EVT.
+\item venue: Télécom ParisTech, TSI department seminar, Paris, France.
+\end{itemize}
+}
+\cventry{\small{\textbf{Oct 2015}}}{\textmd{Anomaly detection algorithms in scikit-learn}}{}{}{}{
+\begin{itemize}
+\item description: presentation of my contribution to scikit-learn.
+\item venue: OSI day (Open Software Initiative), Paris-Saclay center for data science, Orsay, France.
+\end{itemize}
+}
+\cventry{\small{\textbf{Oct 2015}}}{\textmd{Anomaly detection with multivariate extremes}}{}{}{}{
+\begin{itemize}
+\item description: presentation of my work, DAMEX (Detecting Anomalies using Multivariate EXtreme) algorithm, to Safran, PSA Peugeot Citroën, and BNP Parisbas. 
+\item venue: machine learning for big data chair - GT predictive maintenance, Paris.
+\end{itemize}
+}
+\cventry{\small{\textbf{May 2015}}}{\textmd{Scoring anomalies among multivariate extreme observations}}{}{}{}{
+\begin{itemize}
+\item description: presentation of my PhD work on extremes value theory and anomaly detection.
+\item venue: séminaire de statistique AgroParisTech, Paris.
+\end{itemize}
+}
+\cventry{\small{\textbf{Jan 2015}}}{\textmd{Approximating hierarchical MV-sets for hierarchical clustering}}{}{}{}{
+\begin{itemize}
+\item description: presentation of an article from A. Glazer, O. Weissbrod, M. Lindenbaum, S. Markovitch.
+\item venue: SMILE seminar, 'NIPS defriefing', Paris.
+\end{itemize}
+}
+
+\vspace*{-0.3cm}
+
+\section{Languages}
+\cvitem{\textbf{French}}{mother tongue.}
+\cvitem{\textbf{English}}{fluent.}
+\cvitem{\textbf{German}}{knowledge.}
+
+
+% Publications from a BibTeX file using the multibib package
+\vspace*{-0.3cm}
+%\section{Publications}
+% \nocitebook{book}
+% \bibliographystylebook{mine}
+% \bibliographybook{CV_en}
+
+% \nocitejournal{journal1,journal2,journal3,journal4}
+% \bibliographystylejournal{mine}
+% \bibliographyjournal{CV_en}
+
+% \nocite{AISTAT16, COLT15, AISTAT15}
+% \nocite{ARXIV16, NIPSWORKSHOP15}
+
+% %Reducing spacing in the bibliography
+% \let\oldbibliography\thebibliography
+% \renewcommand{\thebibliography}[1]{\oldbibliography{#1}
+% \setlength{\itemsep}{1pt}}
+
+{\footnotesize
+\bibliographystyle{plain}
+\bibliography{CV_en}
+}
+
+% \nociteworkshop{workshop1,workshop2}
+% \bibliographystyleworkshop{mine}
+% \bibliographyworkshop{CV_en}
+
+% \nocitefrench{french1,french2,french3,french4}
+% \bibliographystylefrench{mine}
+% \bibliographyfrench{CV_en}
+
+% \nociteother{other1,other2,other3}
+% \bibliographystyleother{mine}
+% \bibliographyother{CV_en}
+
+\end{document}
+
+
+%% end of file `template.tex'.
