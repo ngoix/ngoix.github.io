@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.2.23)  6 APR 2017 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.2.23)  1 MAY 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,7 +834,7 @@ Package rerunfilecheck Info: File `cv_goix_en.out' has not changed.
 Here is how much of TeX's memory you used:
  9590 strings out of 494991
  140881 string characters out of 6180055
- 273933 words of memory out of 5000000
+ 273915 words of memory out of 5000000
  12568 multiletter control sequences out of 15000+600000
  74352 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -847,7 +847,7 @@ xmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsso9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/marvosym/marvosym.pfb>
-Output written on cv_goix_en.pdf (2 pages, 227985 bytes).
+Output written on cv_goix_en.pdf (2 pages, 227846 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
